@@ -1,0 +1,539 @@
+{
+  "checked_at_utc": "2026-10-29T15:37:49.969946+00:00",
+  "service": "https://api.osv.dev/v1/querybatch",
+  "locks": [
+    {
+      "file": "requirements.lock",
+      "sha256": "8f2ab4e2405cd01a908492f5776b5a3c5bec72a6304c13f23fa4ad0bfdf9e275"
+    },
+    {
+      "file": "requirements-dev.lock",
+      "sha256": "1e39f099f76a2dba6b829b089e7b2525c5623def7e6d02642786eb6cc2fc7803"
+    }
+  ],
+  "packages": 74,
+  "pins": [
+    {
+      "name": "aiohappyeyeballs",
+      "version": "2.7.1",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 2
+    },
+    {
+      "name": "aiohttp",
+      "version": "3.14.5",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 3
+    },
+    {
+      "name": "aiohttp-fast-zlib",
+      "version": "0.3.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 4
+    },
+    {
+      "name": "aiosignal",
+      "version": "1.4.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 5
+    },
+    {
+      "name": "annotated-doc",
+      "version": "0.0.5",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 6
+    },
+    {
+      "name": "annotated-types",
+      "version": "0.8.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 7
+    },
+    {
+      "name": "anyio",
+      "version": "4.15.1",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 8
+    },
+    {
+      "name": "attrs",
+      "version": "26.1.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 9
+    },
+    {
+      "name": "ccxt",
+      "version": "4.5.90",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 10
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.23",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 11
+    },
+    {
+      "name": "cffi",
+      "version": "2.0.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 12
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.4.7",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 13
+    },
+    {
+      "name": "click",
+      "version": "8.5.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 14
+    },
+    {
+      "name": "coincurve",
+      "version": "21.0.0",
+      "marker": "implementation_name == \"cpython\" and python_version < \"3.14\"",
+      "lock": "requirements.lock",
+      "line": 15
+    },
+    {
+      "name": "cryptography",
+      "version": "50.0.2",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 16
+    },
+    {
+      "name": "et-xmlfile",
+      "version": "2.0.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 17
+    },
+    {
+      "name": "fastapi",
+      "version": "0.162.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 18
+    },
+    {
+      "name": "frozenlist",
+      "version": "1.8.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 19
+    },
+    {
+      "name": "h11",
+      "version": "0.16.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 20
+    },
+    {
+      "name": "httpcore",
+      "version": "1.0.9",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 21
+    },
+    {
+      "name": "httpx",
+      "version": "0.28.1",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 22
+    },
+    {
+      "name": "idna",
+      "version": "3.18",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 23
+    },
+    {
+      "name": "multidict",
+      "version": "6.9.1",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 24
+    },
+    {
+      "name": "openpyxl",
+      "version": "3.1.5",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 25
+    },
+    {
+      "name": "opentelemetry-api",
+      "version": "1.45.1",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 26
+    },
+    {
+      "name": "orjson",
+      "version": "3.11.9",
+      "marker": "implementation_name == \"cpython\" and python_version < \"3.15\"",
+      "lock": "requirements.lock",
+      "line": 27
+    },
+    {
+      "name": "propcache",
+      "version": "0.5.2",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 28
+    },
+    {
+      "name": "psycopg",
+      "version": "3.3.6",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 29
+    },
+    {
+      "name": "psycopg-binary",
+      "version": "3.3.6",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 30
+    },
+    {
+      "name": "pycparser",
+      "version": "3.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 31
+    },
+    {
+      "name": "pydantic",
+      "version": "2.14.1",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 32
+    },
+    {
+      "name": "pydantic-core",
+      "version": "2.50.1",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 33
+    },
+    {
+      "name": "python-dotenv",
+      "version": "1.2.4",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 34
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 35
+    },
+    {
+      "name": "sortedcontainers",
+      "version": "2.4.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 36
+    },
+    {
+      "name": "sqlalchemy",
+      "version": "2.1.6",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 37
+    },
+    {
+      "name": "starlette",
+      "version": "1.10.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 38
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.16.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 39
+    },
+    {
+      "name": "typing-inspection",
+      "version": "0.4.4",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 40
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.6",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 41
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 42
+    },
+    {
+      "name": "uvicorn",
+      "version": "0.54.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 43
+    },
+    {
+      "name": "uvloop",
+      "version": "0.22.1",
+      "marker": "platform_system != \"Windows\" and implementation_name == \"cpython\"",
+      "lock": "requirements.lock",
+      "line": 44
+    },
+    {
+      "name": "winloop",
+      "version": "0.6.3",
+      "marker": "platform_system == \"Windows\" and implementation_name == \"cpython\" and python_version < \"3.15\" and platform_machine in \"AMD64 ARM64\"",
+      "lock": "requirements.lock",
+      "line": 45
+    },
+    {
+      "name": "yarl",
+      "version": "1.25.1",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 46
+    },
+    {
+      "name": "zlib-ng",
+      "version": "1.0.0",
+      "marker": null,
+      "lock": "requirements.lock",
+      "line": 47
+    },
+    {
+      "name": "boolean-py",
+      "version": "5.0",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 2
+    },
+    {
+      "name": "cachecontrol",
+      "version": "0.14.4",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 3
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.6",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 4
+    },
+    {
+      "name": "cyclonedx-python-lib",
+      "version": "11.12.0",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 5
+    },
+    {
+      "name": "defusedxml",
+      "version": "0.7.1",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 6
+    },
+    {
+      "name": "filelock",
+      "version": "4.2.4",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 7
+    },
+    {
+      "name": "iniconfig",
+      "version": "2.3.1",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 8
+    },
+    {
+      "name": "license-expression",
+      "version": "30.4.4",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 9
+    },
+    {
+      "name": "markdown-it-py",
+      "version": "4.2.0",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 10
+    },
+    {
+      "name": "mdurl",
+      "version": "0.1.2",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 11
+    },
+    {
+      "name": "msgpack",
+      "version": "1.2.4",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 12
+    },
+    {
+      "name": "packageurl-python",
+      "version": "0.17.6",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 13
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 14
+    },
+    {
+      "name": "pip",
+      "version": "26.2.2",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 15
+    },
+    {
+      "name": "pip-api",
+      "version": "0.0.35",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 16
+    },
+    {
+      "name": "pip-audit",
+      "version": "2.10.1",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 17
+    },
+    {
+      "name": "pip-requirements-parser",
+      "version": "32.0.1",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 18
+    },
+    {
+      "name": "platformdirs",
+      "version": "4.13.6",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 19
+    },
+    {
+      "name": "pluggy",
+      "version": "1.7.0",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 20
+    },
+    {
+      "name": "py-serializable",
+      "version": "2.1.0",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 21
+    },
+    {
+      "name": "pygments",
+      "version": "2.21.0",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 22
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 23
+    },
+    {
+      "name": "pytest",
+      "version": "9.1.1",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 24
+    },
+    {
+      "name": "pytest-timeout",
+      "version": "2.4.0",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 25
+    },
+    {
+      "name": "rich",
+      "version": "15.0.0",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 26
+    },
+    {
+      "name": "ruff",
+      "version": "0.17.3",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 27
+    },
+    {
+      "name": "tomli",
+      "version": "2.5.0",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 28
+    },
+    {
+      "name": "tomli-w",
+      "version": "1.2.0",
+      "marker": null,
+      "lock": "requirements-dev.lock",
+      "line": 29
+    }
+  ],
+  "coverage": "Every lock entry, including markers inactive on the audit host",
+  "findings": [],
+  "pages": 1,
+  "status": "checked"
+}

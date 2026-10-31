@@ -1,0 +1,17 @@
+{
+  "reason": "The wallet tracker's prior ccxt pin forced versions with OSV advisories.",
+  "changes": {
+    "ccxt": {"before": "4.5.84", "after": "4.5.90"},
+    "certifi": {"before": "2026.6.17", "after": "2026.10.23"},
+    "multidict": {"before": "6.7.1", "after": "6.9.1"},
+    "urllib3": {"before": "2.7.0", "after": "2.8.0"}
+  },
+  "initial_advisory_ids": [
+    "GHSA-6q48-6c7w-9gw2", "PYSEC-2026-4320",
+    "GHSA-54p9-h82j-f925", "PYSEC-2026-4244",
+    "GHSA-8988-9cw3-xx77", "GHSA-gh4c-6fx4-qh6g",
+    "GHSA-vxq7-64xx-v4gw"
+  ],
+  "final_check": "dependency-audit.json"
+}
+

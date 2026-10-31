@@ -1,0 +1,66 @@
+[
+  {
+    "archive": "hftbacktest-master.zip",
+    "repository": "nkaz001/hftbacktest",
+    "sha256": "e740f613022322903f013565b44eaf9793bc858fd0d0cc80f3d6a075df36fd6e",
+    "files": 283,
+    "license": "MIT",
+    "root_license_sha256": "b40367c13dfa67c617d6e8037d45581496d9f0429a3274ab19f117404b519a5a",
+    "selected_files": [
+      {
+        "path": "hftbacktest-master/py-hftbacktest/pyproject.toml",
+        "sha256": "f96c0ab03c9d4944c02eb3d6517a8f2450dc689ad4c83c886f7e61b5737d3540",
+        "matches_previously_audited_source_normalized": true
+      }
+    ],
+    "unsafe_paths": false
+  },
+  {
+    "archive": "flowmap-main.zip",
+    "repository": "nazmiefearmutcu/flowmap",
+    "sha256": "d21429fb98befde0d58e1b0f15c284673b82ef09cf927d45eec83d3b0960c015",
+    "files": 667,
+    "license": "Apache-2.0",
+    "root_license_sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "selected_files": [
+      {
+        "path": "flowmap-main/server/pyproject.toml",
+        "sha256": "35118eefb48087b70ed16563d6d08fd8698bf9558aa1d44f6fb80ce0b46e808d",
+        "matches_previously_audited_source_normalized": true
+      }
+    ],
+    "unsafe_paths": false
+  },
+  {
+    "archive": "crypto-orderbook-main.zip",
+    "repository": "jose-donato/crypto-orderbook",
+    "sha256": "b2bfd7972e972a845f8c29e7e88bac685b03e47bc014d6221c78ab13d5bf4cf6",
+    "files": 105,
+    "license": "MIT",
+    "root_license_sha256": "290f5dfdcef2209ecbd82c31143c96013025bf4a49c5b1601f919a44d49c7c2d",
+    "selected_files": [
+      {
+        "path": "crypto-orderbook-main/internal/aggregation/aggregator.go",
+        "sha256": "2d7039dfd06309428ece19cfc7a5ea913054a959cbb05633e4f11a689adb81d2",
+        "matches_previously_audited_source_normalized": true
+      }
+    ],
+    "unsafe_paths": false
+  },
+  {
+    "archive": "orderbook-heatmap-main.zip",
+    "repository": "mamonet/orderbook-heatmap",
+    "sha256": "800594f14919badfe2d049ce5dac515b45b582fccf042fce99b21f32055d4f27",
+    "files": 11,
+    "license": "MIT",
+    "root_license_sha256": "0d3f30c7024c8230b9d345fd862f5eafe472aa85be75ce4d790d432f05edfac2",
+    "selected_files": [
+      {
+        "path": "orderbook-heatmap-main/index.html",
+        "sha256": "405d83a035ce0543213ea89ed1a461995322423ddeed2ea89eb469a38b873cf6",
+        "matches_previously_audited_source_normalized": true
+      }
+    ],
+    "unsafe_paths": false
+  }
+]

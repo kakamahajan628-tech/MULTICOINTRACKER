@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-10-29T00:13:17.052669+00:00",
+  "venues": {
+    "hyperliquid": {
+      "szDecimals": 2,
+      "name": "ZEC",
+      "maxLeverage": 10,
+      "marginTableId": 52
+    },
+    "binance": {
+      "symbol": "ZECUSDT",
+      "contractType": "PERPETUAL",
+      "status": "TRADING",
+      "baseAsset": "ZEC",
+      "quoteAsset": "USDT",
+      "pricePrecision": 2,
+      "quantityPrecision": 3
+    },
+    "bybit": [
+      {
+        "symbol": "ZECUSDT",
+        "contractType": "LinearPerpetual",
+        "status": "Trading",
+        "baseCoin": "ZEC",
+        "quoteCoin": "USDT"
+      }
+    ]
+  }
+}

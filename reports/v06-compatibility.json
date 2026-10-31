@@ -1,0 +1,10 @@
+{
+  "source_archive": "whale-watcher-v0.6.zip",
+  "sha256": "755575de635f4cbb3652991bdddf46be84db013e450d740ee338dbbdda25eb74",
+  "conditions": {
+    "holding_state": true,
+    "position_state": true,
+    "spot_evidence": true
+  },
+  "integration": "Additive order evidence and summaries; existing state/evidence rules retained"
+}

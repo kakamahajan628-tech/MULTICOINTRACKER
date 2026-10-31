@@ -1,0 +1,135 @@
+{
+  "session_seconds": 973.5851758000208,
+  "process_cpu_seconds": 30.28125,
+  "collection_seconds": 6.976415100041777,
+  "test_phase_seconds": {
+    "setup": 0.8834138007368892,
+    "call": 964.7849043996539,
+    "teardown": 0.17876670078840107
+  },
+  "unattributed_session_seconds": 0.7616757987998426,
+  "exit_status": 0,
+  "external_network": "blocked; loopback test servers only",
+  "slowest_phases": [
+    {
+      "test": "tests/test_pipeline.py::test_taker_backtest_has_latency_costs_and_no_same_event_fill",
+      "phase": "call",
+      "seconds": 924.6901924000122,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_public_markets.py::test_budget_caps_actual_requests_and_one_bad_symbol_does_not_block_another",
+      "phase": "call",
+      "seconds": 4.051771999918856,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_watcher.py::test_scan_1000_mocked_provider_and_failure_preserves_balance",
+      "phase": "call",
+      "seconds": 2.934318699990399,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_public_markets.py::test_partial_binance_ratios_do_not_erase_core_and_optional_key_is_isolated",
+      "phase": "call",
+      "seconds": 2.720737299998291,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_birdeye.py::test_evm_checksum_and_sol_case_identity",
+      "phase": "call",
+      "seconds": 2.3552956000203267,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_pipeline.py::test_replay_is_deterministic_and_journal_roundtrip",
+      "phase": "call",
+      "seconds": 1.8447498000459746,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_public_markets.py::test_all_three_public_venues_normalization_cache_and_no_credentials",
+      "phase": "call",
+      "seconds": 1.390557200065814,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_public_markets.py::test_stale_nan_wrong_instrument_and_api_error_are_not_zero",
+      "phase": "call",
+      "seconds": 1.294756600051187,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_public_markets.py::test_reference_fallback_and_unknown_positions_are_not_fabricated",
+      "phase": "call",
+      "seconds": 1.2869054999900982,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_watcher.py::test_import_1000_and_stable_identity",
+      "phase": "call",
+      "seconds": 1.2176694000372663,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_birdeye.py::test_rate_limit_serializes_concurrent_requests",
+      "phase": "call",
+      "seconds": 1.2103567000012845,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_reporting.py::test_public_futures_close_has_realized_pnl_but_not_liquidation",
+      "phase": "call",
+      "seconds": 1.1568256000755355,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_watchlist_transactions.py::test_concurrent_appends_do_not_lose_rows_or_revision",
+      "phase": "call",
+      "seconds": 1.0252789999358356,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_order_study.py::test_order_report_is_integrated_with_scan_api_history_and_commands",
+      "phase": "call",
+      "seconds": 1.0066685000201687,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_screening.py::test_auto_every_six_then_four_hours_restart_and_revision",
+      "phase": "call",
+      "seconds": 0.7928328000707552,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_security_hardening.py::test_telegram_reply_failure_never_exposes_bot_token",
+      "phase": "call",
+      "seconds": 0.7835010000271723,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_security_hardening.py::test_main_app_throttles_all_bad_headers_and_valid_login_still_works",
+      "phase": "call",
+      "seconds": 0.775852799997665,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_watcher.py::test_api_auth_atomic_import_and_helius",
+      "phase": "call",
+      "seconds": 0.7606756000313908,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_portfolio.py::test_scan_preserves_native_balance_and_last_inventory_on_partial_failure",
+      "phase": "call",
+      "seconds": 0.6514129999559373,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_security_hardening.py::test_webhooks_reject_nonascii_secrets_without_server_error",
+      "phase": "call",
+      "seconds": 0.635156000033021,
+      "outcome": "passed"
+    }
+  ]
+}

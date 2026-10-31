@@ -1,0 +1,18 @@
+{
+  "historical_suite_seconds": 868.893,
+  "testcase_seconds_sum": 75.434,
+  "outside_testcases_seconds": 793.4590000000001,
+  "conclusion": "Historical data cannot identify the cause. New collection/phase/CPU and parent-process clocks expose future gaps; timeouts bound test/process waits.",
+  "baseline_new_diagnostics": "test-timing-before-batch.json",
+  "current_diagnostics": "test-timing.json",
+  "additional_observation": {
+    "report": "test-timing-long-pause.json",
+    "suite_wall_seconds": 973.585,
+    "cpu_seconds": 30.28125,
+    "long_test": "test_taker_backtest_has_latency_costs_and_no_same_event_fill",
+    "long_phase_seconds": 924.6901924,
+    "unattributed_session_seconds": 0.761676,
+    "interpretation": "Execution/suspend-like gap localized to a pure backtest phase; no evidence of lifecycle teardown blocking; exact OS/host cause unproven."
+  },
+  "deadline_fix": "Windows waits can exclude low-power intervals. Explicit perf-counter post-resume/post-completion checks and phase checks reject over-budget success; regression tests cover both."
+}

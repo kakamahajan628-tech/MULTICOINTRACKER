@@ -1,0 +1,33 @@
+{
+  "symbol": "SOLUSDT",
+  "pricePrecision": 4,
+  "quantityPrecision": 2,
+  "price_filter": {
+    "filterType": "PRICE_FILTER",
+    "tickSize": "0.0100",
+    "maxPrice": "6857",
+    "minPrice": "0.4200"
+  },
+  "lot_size": {
+    "minQty": "0.01",
+    "filterType": "LOT_SIZE",
+    "maxQty": "1000000",
+    "stepSize": "0.01"
+  },
+  "bad_count": 2,
+  "examples": [
+    {
+      "price": "105.0020",
+      "quantity": "1.00",
+      "price_off_grid": true,
+      "quantity_off_order_step": false
+    },
+    {
+      "price": "105.5290",
+      "quantity": "1.00",
+      "price_off_grid": true,
+      "quantity_off_order_step": false
+    }
+  ],
+  "lastUpdateId": 11951900504564
+}

@@ -1,0 +1,135 @@
+{
+  "session_seconds": 101.78760969999712,
+  "process_cpu_seconds": 62.390625,
+  "collection_seconds": 15.684855100000277,
+  "test_phase_seconds": {
+    "setup": 1.1923962008440867,
+    "call": 83.58005349955056,
+    "teardown": 0.2642319001024589
+  },
+  "unattributed_session_seconds": 1.0660729994997382,
+  "exit_status": 0,
+  "external_network": "blocked; loopback test servers only",
+  "slowest_phases": [
+    {
+      "test": "tests/test_whale_watcher.py::test_scan_1000_mocked_provider_and_failure_preserves_balance",
+      "phase": "call",
+      "seconds": 35.1294673999073,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_pipeline.py::test_taker_backtest_has_latency_costs_and_no_same_event_fill",
+      "phase": "call",
+      "seconds": 5.070853699930012,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_birdeye.py::test_evm_checksum_and_sol_case_identity",
+      "phase": "call",
+      "seconds": 4.5692458000266925,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_public_markets.py::test_budget_caps_actual_requests_and_one_bad_symbol_does_not_block_another",
+      "phase": "call",
+      "seconds": 4.109266699990258,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_public_markets.py::test_partial_binance_ratios_do_not_erase_core_and_optional_key_is_isolated",
+      "phase": "call",
+      "seconds": 2.6799143000971526,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_watcher.py::test_import_1000_and_stable_identity",
+      "phase": "call",
+      "seconds": 2.522014999995008,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_pipeline.py::test_replay_is_deterministic_and_journal_roundtrip",
+      "phase": "call",
+      "seconds": 2.1964927000226453,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_watchlist_transactions.py::test_concurrent_appends_do_not_lose_rows_or_revision",
+      "phase": "call",
+      "seconds": 2.074277399922721,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_security_hardening.py::test_main_app_throttles_all_bad_headers_and_valid_login_still_works",
+      "phase": "call",
+      "seconds": 1.4441246000351384,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_public_markets.py::test_all_three_public_venues_normalization_cache_and_no_credentials",
+      "phase": "call",
+      "seconds": 1.4275987999280915,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_birdeye.py::test_rate_limit_serializes_concurrent_requests",
+      "phase": "call",
+      "seconds": 1.2797714000334963,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_public_markets.py::test_reference_fallback_and_unknown_positions_are_not_fabricated",
+      "phase": "call",
+      "seconds": 1.2789422000059858,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_public_markets.py::test_stale_nan_wrong_instrument_and_api_error_are_not_zero",
+      "phase": "call",
+      "seconds": 1.2681550999404863,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_reporting.py::test_public_futures_close_has_realized_pnl_but_not_liquidation",
+      "phase": "call",
+      "seconds": 1.1785838999785483,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_screening.py::test_auto_every_six_then_four_hours_restart_and_revision",
+      "phase": "call",
+      "seconds": 1.006673000054434,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_portfolio.py::test_scan_preserves_native_balance_and_last_inventory_on_partial_failure",
+      "phase": "call",
+      "seconds": 0.8989950999384746,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_watcher.py::test_api_auth_atomic_import_and_helius",
+      "phase": "call",
+      "seconds": 0.8617270999820903,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_liquidity.py::test_liquidity_routes_share_wallet_auth",
+      "phase": "call",
+      "seconds": 0.7777687000343576,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_server_alerts.py::test_dashboard_api_replay_auth_and_health",
+      "phase": "call",
+      "seconds": 0.7138772000325844,
+      "outcome": "passed"
+    },
+    {
+      "test": "tests/test_whale_birdeye.py::test_private_api_and_telegram_query_use_shared_adapter",
+      "phase": "call",
+      "seconds": 0.6446815999224782,
+      "outcome": "passed"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-10-29T15:47:05.425357+00:00",
+  "events_replayed": 34719,
+  "first_event_id": 518312,
+  "last_event_id": 553030,
+  "markets": {
+    "bybit:ZECUSDT": {
+      "book_matches": true,
+      "update_id_matches": true,
+      "cvd_base_matches": true,
+      "cvd_quote_matches": true,
+      "ready": true
+    },
+    "bybit:SOLUSDT": {
+      "book_matches": true,
+      "update_id_matches": true,
+      "cvd_base_matches": true,
+      "cvd_quote_matches": true,
+      "ready": true
+    },
+    "binance:SOLUSDT": {
+      "book_matches": true,
+      "update_id_matches": true,
+      "cvd_base_matches": true,
+      "cvd_quote_matches": true,
+      "ready": true
+    },
+    "binance:ZECUSDT": {
+      "book_matches": true,
+      "update_id_matches": true,
+      "cvd_base_matches": true,
+      "cvd_quote_matches": true,
+      "ready": true
+    }
+  },
+  "rejections": [],
+  "passed": true,
+  "scope": "Exact current-process ingestion prefix from live API event_count; compared four live top-20 books, update IDs and CVD against journal reconstruction."
+}

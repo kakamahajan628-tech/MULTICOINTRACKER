@@ -1,0 +1,158 @@
+{
+  "version": "0.8.0",
+  "checked_at": "2026-10-29T16:16:23.306516+00:00",
+  "tests": {
+    "tests": "197",
+    "failures": "0",
+    "errors": "0",
+    "skipped": "0",
+    "time": "69.318"
+  },
+  "timing": {
+    "session_seconds": 69.33345470007043,
+    "process_cpu_seconds": 45.953125,
+    "collection_seconds": 7.667451599962078,
+    "test_phase_seconds": {
+      "setup": 1.310005099978298,
+      "call": 59.06317420001142,
+      "teardown": 0.27873439935501665
+    },
+    "unattributed_session_seconds": 1.0140894007636234,
+    "exit_status": 0,
+    "clock_gaps": [],
+    "clock_implementations": {
+      "perf_counter": "QueryPerformanceCounter()",
+      "monotonic": "GetTickCount64()"
+    },
+    "external_network": "blocked; loopback test servers only"
+  },
+  "format_and_lint": "All 66 Python files formatted; full liquidity/whale_watcher/scripts/tests E4/E7/E9/F/B check passed",
+  "package_install": "Editable v0.8.0 built/installed; pip check passed",
+  "dependency_audit": {
+    "pins": 74,
+    "findings": 0,
+    "locks": [
+      {
+        "file": "requirements.lock",
+        "sha256": "8f2ab4e2405cd01a908492f5776b5a3c5bec72a6304c13f23fa4ad0bfdf9e275"
+      },
+      {
+        "file": "requirements-dev.lock",
+        "sha256": "1e39f099f76a2dba6b829b089e7b2525c5623def7e6d02642786eb6cc2fc7803"
+      }
+    ],
+    "strict_pip_audit": "passed; see pip-audit.json"
+  },
+  "v06_conditions": "holding_state, position_state and spot_evidence ASTs unchanged",
+  "live": {
+    "checked_at": "2026-10-29T15:50:02.932108+00:00",
+    "watch_entries": 51,
+    "coverage": {
+      "entries": 51,
+      "observed": 51
+    },
+    "last_completed_scan": "2026-10-29T15:40:56.023767+00:00",
+    "scan_seconds": 87.54,
+    "orders": {
+      "wallet_coin_pairs": 50,
+      "orders_observed": 50,
+      "orders_unavailable": 0,
+      "open_orders": 46,
+      "position_conditions": {
+        "position_increase": 4,
+        "nil": 24,
+        "holding": 21,
+        "full_close": 1
+      },
+      "by_coin": {
+        "ZEC": {
+          "wallet_coin_pairs": 50,
+          "open_orders": 46
+        }
+      },
+      "note": "Open orders are instructions, not executions. Condition counts describe the observed watchlist."
+    },
+    "persisted_history_sample": 10,
+    "position_counts": {
+      "long": 25,
+      "no_open_zec": 25
+    },
+    "book_freshness": {
+      "bybit:ZECUSDT": true,
+      "bybit:SOLUSDT": true,
+      "binance:SOLUSDT": true,
+      "binance:ZECUSDT": true
+    },
+    "main_auth_throttle": [
+      401,
+      401,
+      401,
+      401,
+      401,
+      429
+    ],
+    "valid_auth_after_throttle": 200,
+    "malformed_csv_status": 400,
+    "order_status_probe": {
+      "identity_matched": true,
+      "venue_status": "open"
+    },
+    "status_decoded_bytes": 1412469,
+    "status_compressed_bytes": "189742",
+    "standalone_cli": {
+      "mode": "synthetic",
+      "no_auth": 401,
+      "valid_bearer": 200,
+      "unicode_bad_bearer": 401,
+      "bound_host": "127.0.0.1"
+    },
+    "version": "0.8.0"
+  },
+  "real_replay": {
+    "checked_at": "2026-10-29T15:47:05.425357+00:00",
+    "events_replayed": 34719,
+    "first_event_id": 518312,
+    "last_event_id": 553030,
+    "markets": {
+      "bybit:ZECUSDT": {
+        "book_matches": true,
+        "update_id_matches": true,
+        "cvd_base_matches": true,
+        "cvd_quote_matches": true,
+        "ready": true
+      },
+      "bybit:SOLUSDT": {
+        "book_matches": true,
+        "update_id_matches": true,
+        "cvd_base_matches": true,
+        "cvd_quote_matches": true,
+        "ready": true
+      },
+      "binance:SOLUSDT": {
+        "book_matches": true,
+        "update_id_matches": true,
+        "cvd_base_matches": true,
+        "cvd_quote_matches": true,
+        "ready": true
+      },
+      "binance:ZECUSDT": {
+        "book_matches": true,
+        "update_id_matches": true,
+        "cvd_base_matches": true,
+        "cvd_quote_matches": true,
+        "ready": true
+      }
+    },
+    "rejections": [],
+    "passed": true,
+    "scope": "Exact current-process ingestion prefix from live API event_count; compared four live top-20 books, update IDs and CVD against journal reconstruction."
+  },
+  "limits": [
+    "Windows 3.12 local verification; GitHub matrix configured but not executed",
+    "Docker/Linux/PostgreSQL not run locally",
+    "Private CEX order adapter mocked; Hyperliquid order APIs verified live",
+    "Historical/host timing-pause cause not conclusively proven; overshoot rejection and heartbeat diagnostics tested",
+    "Polling cannot recover every intracycle order; source and local caps disclosed",
+    "No Telegram messages or trading transactions sent"
+  ]
+}

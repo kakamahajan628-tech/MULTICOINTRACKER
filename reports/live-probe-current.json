@@ -1,0 +1,81 @@
+{
+  "checked_at_utc": "2026-10-28T15:54:59.432493+00:00",
+  "results": [
+    {
+      "name": "binance_instrument",
+      "status": "passed",
+      "details": {
+        "venue": "binance",
+        "symbol": "BTCUSDT",
+        "base": "BTC",
+        "quote": "USDT",
+        "tick": "0.10",
+        "qty_step": "0.001",
+        "contract_multiplier": "1",
+        "product": "linear_perpetual"
+      }
+    },
+    {
+      "name": "bybit_instrument",
+      "status": "passed",
+      "details": {
+        "venue": "bybit",
+        "symbol": "BTCUSDT",
+        "base": "BTC",
+        "quote": "USDT",
+        "tick": "0.10",
+        "qty_step": "0.001",
+        "contract_multiplier": "1",
+        "product": "linear_perpetual"
+      }
+    },
+    {
+      "name": "binance_snapshot",
+      "status": "passed",
+      "details": {
+        "lastUpdateId": 11948190139379,
+        "bid_levels": 1000,
+        "ask_levels": 1000
+      }
+    },
+    {
+      "name": "bybit_context",
+      "status": "passed",
+      "details": {
+        "symbol": "BTCUSDT",
+        "markPrice": "80480.00",
+        "openInterestValue": "4980443393.76"
+      }
+    },
+    {
+      "name": "binance_depth_ws",
+      "status": "passed",
+      "details": {
+        "event": "depthUpdate",
+        "U": 11948190178696,
+        "u": 11948190195531,
+        "pu": 11948190178481
+      }
+    },
+    {
+      "name": "binance_market_ws",
+      "status": "passed",
+      "details": {
+        "event": "aggTrade",
+        "schema": "normalized"
+      }
+    },
+    {
+      "name": "bybit_book_and_trade_ws",
+      "status": "passed",
+      "details": {
+        "book": {
+          "u": 13264643,
+          "seq": 834127687132,
+          "type": "delta"
+        },
+        "trade": "normalized"
+      }
+    }
+  ]
+}

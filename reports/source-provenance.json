@@ -1,0 +1,150 @@
+[
+  {
+    "repository": "aryan1803/Order-Book-Stream-Visualization",
+    "url": "https://github.com/aryan1803/Order-Book-Stream-Visualization",
+    "commit": "ac8bf6a64deecdcbefbee0dc58dd90981b656b6c",
+    "files": [
+      {
+        "path": "requirements.txt",
+        "sha256": "d4fc8b89fe9c5474bf7511cc837ea78961d32e9fbf577dd92ef405487ac2aa5c"
+      }
+    ]
+  },
+  {
+    "repository": "nazmiefearmutcu/flowmap",
+    "url": "https://github.com/nazmiefearmutcu/flowmap",
+    "commit": "ffa9ce711771668f73f58406464bafc098793b13",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5"
+      },
+      {
+        "path": "app/src-tauri/Cargo.toml",
+        "sha256": "6db1ebd50f7b41598e28e7d2f6f2cc4b66d074bad4a2a5ed3c69cd1bd2f62348"
+      },
+      {
+        "path": "client/package.json",
+        "sha256": "3768be5e25c00d16a47e9292823bbdeee61aaac19e416a7c056b2720fac3b637"
+      },
+      {
+        "path": "server/pyproject.toml",
+        "sha256": "4a5bd111370b4e7299af395782dfe4a09a9a02398eea1d0739a905d0b850c94a"
+      }
+    ]
+  },
+  {
+    "repository": "mamonet/orderbook-heatmap",
+    "url": "https://github.com/mamonet/orderbook-heatmap",
+    "commit": "1219153a1a7c1b29a44e0a7beec1d1caa08bcc60",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "4736f7bb626685cb240fcb2c0d43eec97f63fb59573b91ab5f9a2deb1dfb9fb5"
+      }
+    ]
+  },
+  {
+    "repository": "bendizziesmith/liqmap",
+    "url": "https://github.com/bendizziesmith/liqmap",
+    "commit": "a85c5b80fefede03beb4ad6b96770bb20528884c",
+    "files": [
+      {
+        "path": "package.json",
+        "sha256": "96d3b1fc230fdb11604d02ea1bbfceeb2f064de5a1a7c4cf4d8f5a8822c023b6"
+      }
+    ]
+  },
+  {
+    "repository": "zadescoxp/order-flow-screener",
+    "url": "https://github.com/zadescoxp/order-flow-screener",
+    "commit": "0591ea444e48f8cf8a10f1ab4333a348ae9a776c",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+      },
+      {
+        "path": "package.json",
+        "sha256": "2a949d74086d48e7aeeaf1673ee867a09f031005f442bb530e45ff23498ee536"
+      }
+    ]
+  },
+  {
+    "repository": "arvin-shafiei/hft",
+    "url": "https://github.com/arvin-shafiei/hft",
+    "commit": "be0115489337d34fdd1ee2b7ebd6dec13717abab",
+    "files": [
+      {
+        "path": "Cargo.toml",
+        "sha256": "24d94f21933a4107a780b8ebd486e7ff20f2cb34baab696997113709863254d0"
+      }
+    ]
+  },
+  {
+    "repository": "jose-donato/crypto-orderbook",
+    "url": "https://github.com/jose-donato/crypto-orderbook",
+    "commit": "51007178e5d62c7c8ee1df1568f0bab24f7bb3dc",
+    "files": [
+      {
+        "path": "LICENSE",
+        "sha256": "defbf01a25271b2d56c0d0795fda7be5d59ff583be15cf8ae1f2184e66327242"
+      },
+      {
+        "path": "frontend/package.json",
+        "sha256": "ee2cec24894821ee4c73cccef527caf08e33d76499767c453c717d8ef54da3db"
+      },
+      {
+        "path": "go.mod",
+        "sha256": "a81fff553c702f08bbc4cc78a4f0c1fedb3bcff12f143794e7c0c759c040abd7"
+      }
+    ]
+  },
+  {
+    "repository": "nkaz001/hftbacktest",
+    "url": "https://github.com/nkaz001/hftbacktest",
+    "commit": "5f3ec40b2afb764e0fea112f941ed85523ef4e88",
+    "files": [
+      {
+        "path": "Cargo.toml",
+        "sha256": "8e913a074244a22978ef16b25e12800d0084fa8963f76dfe03d94698c3206579"
+      },
+      {
+        "path": "LICENSE",
+        "sha256": "7961c5b6a7f663fb5c69bec1a920f942acf85f4cfeddb281f2fae21f0d3f434b"
+      },
+      {
+        "path": "collector/Cargo.toml",
+        "sha256": "51b96d05007eb6081bb80441bc49d70284b488fabffc9692634b91b3efe562c6"
+      },
+      {
+        "path": "connector/Cargo.toml",
+        "sha256": "583713ef6d8c34d4b37f7fd05964b1706a5388b3790caf73bcf38a9fe64a7272"
+      },
+      {
+        "path": "docs/requirements.txt",
+        "sha256": "e1b86f3a7976dc4c76fe9aad9fa23d59f5cf855aaeabda45054ec5ac320e44c3"
+      },
+      {
+        "path": "hftbacktest-derive/Cargo.toml",
+        "sha256": "f46ed4a0d3370979496e7c3ea196a573da2f7a1cce7fcef250db095d28ba452c"
+      },
+      {
+        "path": "hftbacktest/Cargo.toml",
+        "sha256": "3dca2522fb4e35ad354978829288f7a02a8a74208eaf0f7e94f4433bd16506c6"
+      },
+      {
+        "path": "py-hftbacktest/Cargo.toml",
+        "sha256": "caeda269816ed9fe19480b8cb1096f2f240d9be62ff639a39ef4526aadab6990"
+      },
+      {
+        "path": "py-hftbacktest/LICENSE",
+        "sha256": "1e881ecf2862d01e6e5bc2b861e46886d2a6fb01499c0c508a209a7271b13cf2"
+      },
+      {
+        "path": "py-hftbacktest/pyproject.toml",
+        "sha256": "3a29c6cba6d3aba2e018f4433875f59ec49459979a98c2f32323cc7e5e59344c"
+      }
+    ]
+  }
+]
