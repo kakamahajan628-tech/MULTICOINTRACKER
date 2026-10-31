@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Liquidity Intelligence</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<header><div class="brand"><span class="mark">≋</span><div>LIQUIDITY <strong>INTELLIGENCE</strong><small>PUBLIC MARKET RESEARCH · BINANCE FUTURES / BYBIT</small></div></div>
+<div class="controls"><span id="mode" class="pill">CONNECTING</span><select id="market" aria-label="Market"></select><button id="access">Access token</button></div></header>
+<main>
+<div class="intro"><div><h1>Read the visible. Question the inferred.</h1><p>Resting liquidity and executed flow, with evidence behind each candidate.</p></div>
+<div class="health"><span id="status">Waiting for data</span><small id="quality"></small></div></div>
+<section class="metrics" id="metrics"></section>
+<div class="layout">
+<section class="panel heat"><div class="panel-head"><div><span class="eyebrow">OBSERVED · L2 HISTORY</span><h2>Liquidity heatmap</h2></div><label>History <select id="window"><option value="120">120 seconds</option><option value="60">60 seconds</option><option value="30">30 seconds</option></select></label></div>
+<canvas id="heatmap" aria-label="Historical visible order book liquidity"></canvas><p class="legend"><i class="bid"></i> Bids <i class="ask"></i> Asks · brightness = resting quote size · white = midpoint <span id="hover"></span></p></section>
+<section class="panel ladder"><div class="panel-head"><div><span class="eyebrow">OBSERVED · CURRENT BOOK</span><h2>Depth ladder</h2></div><span class="pill">USDT</span></div><div class="ladder-head"><span>Price</span><span>Base qty</span><span>Quote value</span></div><div id="ladder"></div></section>
+<section class="panel flow"><div class="panel-head"><div><span class="eyebrow">DERIVED · TRADE TAPE</span><h2>Cumulative volume delta</h2></div><span id="cvd-epoch" class="muted"></span></div><canvas id="cvd" aria-label="Cumulative volume delta"></canvas><p class="legend">Base units · observed stream segment · restarts after a market feed disconnect</p></section>
+<section class="panel candidates"><div class="panel-head"><div><span class="eyebrow amber">INFERRED · HEURISTIC CANDIDATES</span><h2>Evidence feed</h2></div></div><p class="note">Scores are heuristic strength, not probabilities. L2 cannot identify hidden orders or prove manipulation.</p><div id="signals"></div></section>
+<section class="panel bands"><div class="panel-head"><div><span class="eyebrow amber">MODELED · SCENARIO ENVELOPES</span><h2>Liquidation bands</h2></div><span class="pill amber">UNCERTAIN</span></div><p class="note">Unknown entries, leverage, maintenance tiers and collateral. These are hypothetical position scenarios.</p><div id="bands"></div><details><summary>Model assumptions</summary><p id="assumptions"></p></details></section>
+<section class="panel venues"><div class="panel-head"><div><span class="eyebrow">NORMALIZED · VENUE COMPARISON</span><h2>Cross-venue depth</h2></div></div><div id="venues"></div><p class="note">Linear USDT perpetuals only. Quote values retain venue basis and USDT units. Composite depth is not an executable book.</p></section>
+<section class="panel observed"><div class="panel-head"><div><span class="eyebrow">OBSERVED · REPORTED EVENTS</span><h2>Liquidations & context</h2></div></div><div id="observed"></div></section>
+</div><footer>LOCAL RESEARCH WORKSPACE <span id="count"></span> · Public feeds do not reveal every resting order, position or execution.</footer>
+</main><script src="/static/app.js"></script></body></html>
+
