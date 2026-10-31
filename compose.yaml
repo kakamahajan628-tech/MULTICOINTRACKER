@@ -1,0 +1,22 @@
+services:
+  wallet-intelligence:
+    build: .
+    init: true
+    restart: unless-stopped
+    env_file:
+      - .env.whale
+    environment:
+      PORT: "8002"
+      PYTHONDONTWRITEBYTECODE: "1"
+    ports:
+      - "127.0.0.1:8002:8002"
+    volumes:
+      - ./runtime:/app/runtime
+    read_only: true
+    tmpfs:
+      - /tmp
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+

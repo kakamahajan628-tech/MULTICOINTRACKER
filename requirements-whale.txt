@@ -1,0 +1,3 @@
+# Exact integrated runtime versions, including liquidity engine.
+-r requirements.lock
+

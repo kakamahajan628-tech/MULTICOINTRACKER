@@ -1,0 +1,59 @@
+services:
+  - type: web
+    name: whale-watcher-desk
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements-whale.txt
+    startCommand: python -m whale_watcher
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.14
+      - key: WHALE_ADMIN_TOKEN
+        generateValue: true
+      - key: WHALE_WEBHOOK_SECRET
+        generateValue: true
+      - key: WHALE_DATABASE_URL
+        sync: false
+      - key: WHALE_TELEGRAM_TOKEN
+        sync: false
+      - key: WHALE_TELEGRAM_OWNER_ID
+        sync: false
+      - key: WHALE_PUBLIC_URL
+        sync: false
+      - key: WHALE_RPC_ETHEREUM
+        sync: false
+      - key: WHALE_RPC_SOLANA
+        sync: false
+      - key: WHALE_AUTO_REPORTS
+        value: 'true'
+      - key: WHALE_HELIUS_RPC_BUDGET
+        value: '850000'
+      - key: WHALE_NANSEN_DAILY_CREDITS
+        value: '10'
+      - key: WHALE_HELIUS_WEBHOOK_SECRET
+        generateValue: true
+      - key: WHALE_BIRDEYE_KEY
+        sync: false
+      - key: WHALE_BIRDEYE_MONTHLY_CU
+        value: '27000'
+      - key: WHALE_BIRDEYE_DAILY_CU
+        value: '1000'
+      - key: WHALE_MARKETS_ENABLED
+        value: 'true'
+      - key: WHALE_MARKET_AUTO_REPORTS
+        value: 'true'
+      - key: WHALE_MARKET_MAX_SYMBOLS
+        value: '10'
+      - key: WHALE_MARKET_MONTHLY_CALLS
+        value: '100000'
+      - key: WHALE_LIQUIDITY_ENABLED
+        value: 'true'
+      - key: WHALE_LIQUIDITY_MODE
+        value: 'live'
+      - key: WHALE_LIQUIDITY_MAX_MARKETS
+        value: '2'
+      - key: WHALE_LIQUIDITY_JOURNAL
+        value: ''
+      - key: WHALE_LIQUIDITY_ALERTS
+        value: 'false'

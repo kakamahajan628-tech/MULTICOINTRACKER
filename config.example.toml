@@ -1,0 +1,11 @@
+[signals]
+wall_multiple = 5.0
+wall_min_quote = 100000.0
+wall_persist_ms = 5000
+wall_vanish_fraction = 0.2
+absorption_min_quote = 50000.0
+absorption_max_range_bps = 2.0
+iceberg_ratio = 3.0
+cooldown_ms = 10000
+stale_ms = 3000
+
